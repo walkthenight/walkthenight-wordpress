@@ -1073,7 +1073,8 @@ class WP_REST_Posts_Controller extends WP_REST_Controller {
 			$data['content'] = array(
 				'raw'      => $post->post_content,
 				/** This filter is documented in wp-includes/post-template.php */
-				'rendered' => apply_filters( 'the_content', $post->post_content ),
+				/** 'rendered' => apply_filters( 'the_content', $post->post_content ), */
+				'rendered' => $post->post_content	
 			);
 
 			// Don't leave our cookie lying around: https://github.com/WP-API/WP-API/issues/1055.

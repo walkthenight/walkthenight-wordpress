@@ -53,9 +53,9 @@ class WP_REST_Meta_Posts_Controller extends WP_REST_Meta_Controller {
 		}
 
 		$post_type = get_post_type_object( $parent->post_type );
-		if ( ! current_user_can( $post_type->cap->edit_post, $parent->ID ) ) {
-			return new WP_Error( 'rest_forbidden', __( 'Sorry, you cannot view the meta for this post.' ), array( 'status' => rest_authorization_required_code() ) );
-		}
+	//	if ( ! current_user_can( $post_type->cap->edit_post, $parent->ID ) ) {
+	//		return new WP_Error( 'rest_forbidden', __( 'Sorry, you cannot view the meta for this post.' ), array( 'status' => rest_authorization_required_code() ) );
+	//	}
 		return true;
 	}
 

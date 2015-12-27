@@ -111,6 +111,24 @@ function _add_extra_api_post_type_arguments() {
 		$wp_post_types['page']->rest_base = 'pages';
 		$wp_post_types['page']->rest_controller_class = 'WP_REST_Posts_Controller';
 	}
+	
+	if ( isset( $wp_post_types['tc_events'] ) ) {
+		$wp_post_types['tc_events']->show_in_rest = true;
+		$wp_post_types['tc_events']->rest_base = 'tc_events';
+		$wp_post_types['tc_events']->rest_controller_class = 'WP_REST_Posts_Controller';
+	}
+	
+	if ( isset( $wp_post_types['tc_tickets'] ) ) {
+		$wp_post_types['tc_tickets']->show_in_rest = true;
+		$wp_post_types['tc_tickets']->rest_base = 'tc_tickets';
+		$wp_post_types['tc_tickets']->rest_controller_class = 'WP_REST_Posts_Controller';
+	}
+	
+	if ( isset( $wp_post_types['tc_orders'] ) ) {
+		$wp_post_types['tc_orders']->show_in_rest = true;
+		$wp_post_types['tc_orders']->rest_base = 'tc_orders';
+		$wp_post_types['tc_orders']->rest_controller_class = 'WP_REST_Posts_Controller';
+	}
 
 	if ( isset( $wp_post_types['attachment'] ) ) {
 		$wp_post_types['attachment']->show_in_rest = true;
