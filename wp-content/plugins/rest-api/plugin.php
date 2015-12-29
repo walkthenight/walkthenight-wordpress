@@ -80,6 +80,11 @@ include_once dirname( __FILE__ ) . '/lib/endpoints/class-wp-rest-meta-posts-cont
 include_once dirname( __FILE__ ) . '/lib/endpoints/class-wp-rest-posts-terms-controller.php';
 
 /**
+ * WP_REST_TC_Tickets_Controller class.
+ */
+require_once dirname( __FILE__ ) . '/lib/endpoints/class-wp-rest-tc-tickets-controller.php';
+
+/**
  * REST extras.
  */
 include_once( dirname( __FILE__ ) . '/extras.php' );
@@ -121,7 +126,7 @@ function _add_extra_api_post_type_arguments() {
 	if ( isset( $wp_post_types['tc_tickets'] ) ) {
 		$wp_post_types['tc_tickets']->show_in_rest = true;
 		$wp_post_types['tc_tickets']->rest_base = 'tc_tickets';
-		$wp_post_types['tc_tickets']->rest_controller_class = 'WP_REST_Posts_Controller';
+		$wp_post_types['tc_tickets']->rest_controller_class = 'WP_REST_TC_Tickets_Controller';
 	}
 	
 	if ( isset( $wp_post_types['tc_orders'] ) ) {
