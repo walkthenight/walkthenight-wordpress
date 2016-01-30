@@ -1,0 +1,11 @@
+Plugin Name: PayPal Chained Payments for Tickera
+Author: Tickera.com
+
+1.1.2 - 29/OCT/2015
+- Fixed cancel URL
+
+1.1.1 - 14/OCT/2015
+- Added support for the Tickera 3.2.0.2
+
+1.1 - 21/AUG/2015
+- Changed the gateway to reflect payment gateway API changes

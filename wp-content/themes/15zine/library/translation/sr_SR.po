@@ -1,0 +1,390 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 15Zine 1.0\n"
+"POT-Creation-Date: 2015-03-25 11:59-0000\n"
+"PO-Revision-Date: 2015-07-14 17:42+0200\n"
+"Last-Translator: \n"
+"Language-Team: Cubell Themes\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;gettext;gettext_noop;_n:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../library/admin\n"
+"X-Poedit-SearchPathExcluded-1: ../option-tree\n"
+"X-Poedit-SearchPathExcluded-2: ../plugins/login-with-ajax\n"
+"X-Poedit-SearchPathExcluded-3: ../buddypress\n"
+"X-Poedit-SearchPathExcluded-4: ../bbpress\n"
+"X-Poedit-SearchPathExcluded-5: ../woocommerce\n"
+
+#: ../404.php:10
+msgid "Page not found... Oops!"
+msgstr "Stranica nije pronađena!"
+
+#: ../404.php:11
+msgid "Page not found. Please try using the search box below."
+msgstr "Stranica nije pronađena! Molimo Vas koristite pretragu ispod."
+
+#: ../bbpress/form-search.php:14
+msgid "Search for:"
+msgstr "Traži:"
+
+#: ../bbpress/form-search.php:16 ../searchform.php:3
+msgid "Search.."
+msgstr "Traži..."
+
+#: ../comments.php:15
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Ovaj članak je zaštićen šifrom. Molimo Vas unesite šifru kako biste videli "
+"komentare."
+
+#: ../comments.php:27
+msgid "No Responses"
+msgstr "Nema odgovora"
+
+#: ../comments.php:27
+msgid "One Response"
+msgstr "Jedan odgovor"
+
+#: ../comments.php:27
+msgid "% Response"
+msgid_plural "% Responses"
+msgstr[0] "% odgovor"
+msgstr[1] "% odgovora"
+
+#: ../comments.php:53
+msgid "Leave a Reply"
+msgstr "Ostavi odgovor"
+
+#: ../comments.php:54
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Ostavi odgovor za %s"
+
+#: ../comments.php:55
+msgid "Cancel Reply"
+msgstr "Otkaži odgovor"
+
+#: ../comments.php:56
+msgid "Post Comment"
+msgstr "Ostavite komentare"
+
+#: ../comments.php:58
+msgid "Your email address will not be published."
+msgstr "Vaša email adresa neće biti objavljena."
+
+#: ../comments.php:59
+msgid "Comment"
+msgstr "Komentar"
+
+#: ../comments.php:65
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Morate biti <a href=\"%s\">ulogovani</a> kako biste komentarisali."
+
+#: ../comments.php:71
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Ulogovani ste kao <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title="
+"\"Izlogujte se sa ovog naloga\">Izlogujte se?</a>"
+
+#: ../comments.php:81
+msgid "Name"
+msgstr "Ime"
+
+#: ../comments.php:87 ../library/core.php:3834 ../library/core.php:3888
+msgid "Email"
+msgstr "Email"
+
+#: ../comments.php:94 ../library/core.php:3835 ../library/core.php:3889
+msgid "Website"
+msgstr "Sajt"
+
+#: ../functions.php:288
+msgid ""
+"15Zine requires Cubell Themes Functionality 4.0, please delete your existing "
+"installation of Cubell Themes Functionality plugin and install the latest "
+"version in Appearance -> Install Plugins."
+msgstr "15Zine "
+
+#: ../library/core.php:127
+msgid "Log in / Join"
+msgstr "Ulogovanje / Kreiranje naloga"
+
+#: ../library/core.php:133
+msgid "Search"
+msgstr "Pretraga"
+
+#: ../library/core.php:366
+msgid "Trending"
+msgstr "Popularno"
+
+#: ../library/core.php:373
+msgid "Now"
+msgstr "Sada"
+
+#: ../library/core.php:373
+msgid "Week"
+msgstr "Ove Nedelje"
+
+#: ../library/core.php:373
+msgid "Month"
+msgstr "Ovog Meseca"
+
+#: ../library/core.php:451 ../library/core.php:516
+msgid "Not enough data yet, please check again later."
+msgstr "Trenutno nema dovoljno podataka, molimo Vas probajte kasnije."
+
+#: ../library/core.php:456 ../library/core.php:522
+msgid ""
+"You need to install Jetpack plugin and enable the \"Stats\" module to be "
+"able to use this."
+msgstr ""
+"Morate da imate instaliran Jetpack plugin i uključen modul \"Stats\" kako "
+"biste bili u mogućnosti da ovo vidite."
+
+#: ../library/core.php:550
+#, php-format
+msgid "Found %d result for:"
+msgid_plural "Found %d results for:"
+msgstr[0] "Pronađeno %d rezultat za:"
+msgstr[1] "Pronađeno %d rezultat(a) za:"
+
+#: ../library/core.php:573
+msgid "See all results"
+msgstr "Pogledaj sve rezultate"
+
+#: ../library/core.php:576
+msgid "No results found for:"
+msgstr "Nema rezultata pretrage za:"
+
+#: ../library/core.php:1250 ../library/core.php:1402 ../library/core.php:2323
+#: ../library/core.php:2327 ../library/core.php:2328 ../library/core.php:2394
+#: ../library/core.php:2398 ../library/core.php:2400 ../library/core.php:2406
+#: ../library/core.php:2412 ../library/core.php:2418
+#, php-format
+msgid "View all posts in %s"
+msgstr "Pogledaj sve članke u %s"
+
+#: ../library/core.php:1410
+msgid "0 Comments"
+msgstr "0 komentara"
+
+#: ../library/core.php:1516
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (Nevažeče)"
+
+#: ../library/core.php:1520
+#, php-format
+msgid "%s (Pending)"
+msgstr "%s (Nerešeno)"
+
+#: ../library/core.php:1565
+msgid "Edit Menu Item"
+msgstr "Izmeni stavku u meniju"
+
+#: ../library/core.php:1574
+msgid "URL"
+msgstr "URL adresa"
+
+#: ../library/core.php:1581
+msgid "Navigation Label"
+msgstr "Oznaka navigacije"
+
+#: ../library/core.php:1587
+msgid "Title Attribute"
+msgstr "Atributi naslova"
+
+#: ../library/core.php:1594
+msgid "Open link in a new window/tab"
+msgstr "Otvori link u novom prozoru/kartici"
+
+#: ../library/core.php:1599
+msgid "CSS Classes (optional)"
+msgstr "CSS klase (opciono)"
+
+#: ../library/core.php:1605
+msgid "Link Relationship (XFN)"
+msgstr "Odnos veze (XFN)"
+
+#: ../library/core.php:1621
+msgid "Description"
+msgstr "Opis"
+
+#: ../library/core.php:1623
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it. "
+msgstr "Ovaj opis će biti prikazan u meniju ukoliko ga trenutna tema podržava."
+
+#: ../library/core.php:1629
+msgid "Move"
+msgstr "Pomeri"
+
+#: ../library/core.php:1630
+msgid "Up one"
+msgstr "Jedno mesto gore"
+
+#: ../library/core.php:1631
+msgid "Down one"
+msgstr "Jedno mesto dole"
+
+#: ../library/core.php:1634
+msgid "To the top"
+msgstr "Povratak kad vrhu"
+
+#: ../library/core.php:1641
+#, php-format
+msgid "Original: %s"
+msgstr "Original: %s"
+
+#: ../library/core.php:1654
+msgid "Remove"
+msgstr "Ukloni"
+
+#: ../library/core.php:1655
+msgid "Cancel"
+msgstr "Poništi"
+
+#: ../library/core.php:1842
+msgid "See all"
+msgstr "Pogledaj sve"
+
+#: ../library/core.php:2131
+msgid "Read more"
+msgstr "Pročitaj još"
+
+#: ../library/core.php:2147
+msgid "No more articles"
+msgstr "Nema više članaka"
+
+#: ../library/core.php:2148
+msgid "Load More"
+msgstr "Učitaj još"
+
+#: ../library/core.php:2314
+msgid "Home"
+msgstr "Naslovna"
+
+#: ../library/core.php:2346 ../library/core.php:2348
+msgid "Groups"
+msgstr "Grupe"
+
+#: ../library/core.php:2364 ../library/core.php:2368
+msgid "Members"
+msgstr "Članovi"
+
+#: ../library/core.php:2376
+msgid "Messages"
+msgstr "Poruke"
+
+#: ../library/core.php:2381
+msgid "Register"
+msgstr "Registruj se"
+
+#: ../library/core.php:2505
+msgid "Share On"
+msgstr "Podelite na"
+
+#: ../library/core.php:2575
+msgid "Next Article"
+msgstr "Sledeći članak"
+
+#: ../library/core.php:2580
+msgid "No Newer Articles"
+msgstr "Nema novijih članaka"
+
+#: ../library/core.php:2590
+msgid "Previous Article"
+msgstr "Prethodni članak"
+
+#: ../library/core.php:2595
+msgid "No Older Articles"
+msgstr "Nema starijih članaka"
+
+#: ../library/core.php:2664
+msgid "Related Posts"
+msgstr "Povezani članci"
+
+#: ../library/core.php:2716
+msgid "(Edit)"
+msgstr "(Izmeni)"
+
+#: ../library/core.php:2719
+msgid "Your comment is awaiting moderation."
+msgstr "Vaš komentar je upućen moderatoru na odobrenje."
+
+#: ../library/core.php:3635
+msgid "Overall Score"
+msgstr "Konačna ocena"
+
+#: ../library/core.php:3723 ../library/core.php:3733
+msgid "You have already rated"
+msgstr "Već ste ocenili"
+
+#: ../library/core.php:3727 ../library/core.php:4552
+msgid "Vote"
+msgstr "ocena"
+
+#: ../library/core.php:3729 ../library/core.php:4554
+msgid "Votes"
+msgstr "ocene"
+
+#: ../library/core.php:3732
+msgid "Leave rating"
+msgstr "Oceni"
+
+#: ../library/core.php:3734
+msgid "Reader Rating"
+msgstr "Ocena čitalaca"
+
+#: ../library/widgets/cb-google-follow-widget.php:87
+#: ../library/widgets/cb-recent-posts-slider-widget.php:121
+#: ../library/widgets/cb-recent-posts-widget.php:116
+#: ../library/widgets/cb-reviews-widget.php:182
+#: ../library/widgets/cb-single-image-widget.php:82
+#: ../library/widgets/cb-widget-social-media.php:98
+msgid "Title:"
+msgstr "Naslov:"
+
+#: ../library/widgets/cb-popular-posts-widget.php:116
+msgid "Comments"
+msgstr "Komentari"
+
+#: ../library/widgets/cb-popular-posts-widget.php:145
+msgid "Views"
+msgstr "Pregleda"
+
+#: ../library/widgets/cb-recent-posts-slider-widget.php:124
+#: ../library/widgets/cb-recent-posts-widget.php:119
+msgid "Number of posts to show:"
+msgstr "Broj članaka za prikaz:"
+
+#: ../library/widgets/cb-reviews-widget.php:197
+msgid "Number of reviews to show:"
+msgstr "Broj recenzija za prikaz:"
+
+#: ../page.php:60
+msgid "Tags:"
+msgstr "Tagovi:"
+
+#: ../search.php:10
+msgid "Search Results for"
+msgstr "Rezultati pretrage za"
+
+#: ../search.php:27
+msgid "Sorry, nothing found."
+msgstr "Žao nam je, ništa nije pronađeno."
+
+#: ../search.php:28
+msgid "Please try searching again, but with different keywords."
+msgstr "Molimo Vas pokušajte opet sa drugačijim unosom."

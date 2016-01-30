@@ -1,0 +1,21 @@
+Plugin Name: Mollie Add-on for Tickera
+Author: Tickera.com
+
+1.2.0.1 - 14/OCT/2015
+- Added support for the Tickera 3.2.0.2
+
+1.2 - 27/AUG/2015
+- Fixed issues with payment slug return
+
+1.1 - 21/AUG/2015
+- Changed the gateway to reflect payment gateway API changes
+
+1.0.2 - 20/MAY/2015
+- Fixed issue with add-on translation
+
+1.0.1 - 11/MAY/2015
+- Fixed conflicts with WooCommerce
+
+1.0 - 04/APR/2015
+----------------------------------------------------------------------
+- First Release

@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tickera\n"
+"POT-Creation-Date: 2015-05-20 10:18+0100\n"
+"PO-Revision-Date: 2015-05-20 10:18+0100\n"
+"Last-Translator: \n"
+"Language-Team: Tickera.com <info@tickera.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ./\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;__ngettext;_n;__ngettext_noop;_n_noop;_x;_nx;"
+"_nx_noop;_ex;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_e;"
+"esc_html_x;_c;_nc\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../mollie.php:40 ../mollie.php:41 ../mollie.php:296
+msgid "Mollie"
+msgstr ""
+
+#: ../mollie.php:53
+msgid "EUR - Euro"
+msgstr ""
+
+#: ../mollie.php:145
+msgid "Order: #"
+msgstr ""
+
+#: ../mollie.php:172
+msgid "API call failed: "
+msgstr ""
+
+#: ../mollie.php:193
+#, php-format
+msgid ""
+"Your payment via Mollie for this order totaling <strong>%s</strong> is not "
+"yet complete."
+msgstr ""
+
+#: ../mollie.php:194
+msgid "Current order status:"
+msgstr ""
+
+#: ../mollie.php:194
+msgid "Pending Payment"
+msgstr ""
+
+#: ../mollie.php:196
+msgid "Your payment is under review. We will back to you soon."
+msgstr ""
+
+#: ../mollie.php:198
+#, php-format
+msgid ""
+"Your payment via Mollie for this order totaling <strong>%s</strong> is "
+"complete."
+msgstr ""
+
+#: ../mollie.php:242
+msgid "Mollie Settings"
+msgstr ""
+
+#: ../mollie.php:244
+msgid ""
+"Mollie provides a fully PCI Compliant and secure way to collect payments via "
+"iDeal, Credit Card, Bancontact / Mister Cash, SOFORT Banking, Overbooking, "
+"Bitcoin, PayPal, paysafecard and AcceptEmail."
+msgstr ""
+
+#: ../mollie.php:247
+msgid "Mollie API Key"
+msgstr ""
+
+#: ../mollie.php:255
+msgid "Payment Method Name (shown on front)"
+msgstr ""
+
+#: ../mollie.php:263
+msgid "Mollie Currency"
+msgstr ""
+
+#: ../mollie.php:265
+msgid ""
+"Select Mollie currency. Make sure it matches global currency set in the "
+"General Settings."
+msgstr ""

@@ -1,0 +1,20 @@
+Plugin Name: Stripe Connect for Tickera
+Author: Tickera.com
+
+1.2.2.1 - 14/OCT/2015
+- Added support for the Tickera 3.2.0.2
+
+1.2.2 - 28/SEP/2015
+- Added option for skipping the confirmation page
+
+1.2.1 - 21/AUG/2015
+- Fixed issue with application_fee calculation
+
+1.2 - 21/AUG/2015
+- Changed the gateway to reflect payment gateway API changes
+
+1.1 - 07/JUL/2015
+- Added option to charge both percentage and fixed fee per each sale
+
+1.0 - 09/APR/2015
+- First Release

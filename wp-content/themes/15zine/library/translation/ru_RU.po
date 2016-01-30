@@ -1,0 +1,443 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 15Zine 1.0\n"
+"POT-Creation-Date: 2015-08-07 12:40-0000\n"
+"PO-Revision-Date: 2015-08-07 12:41-0000\n"
+"Last-Translator: \n"
+"Language-Team: Cubell Themes\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;gettext;gettext_noop;_n:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../library/admin\n"
+"X-Poedit-SearchPathExcluded-1: ../option-tree\n"
+"X-Poedit-SearchPathExcluded-2: ../plugins/login-with-ajax\n"
+"X-Poedit-SearchPathExcluded-3: ../buddypress\n"
+"X-Poedit-SearchPathExcluded-4: ../bbpress\n"
+"X-Poedit-SearchPathExcluded-5: ../woocommerce\n"
+
+#: ../404.php:10
+msgid "Page not found... Oops!"
+msgstr "Упс... Страница не найдена..."
+
+#: ../404.php:11
+msgid "Page not found. Please try using the search box below."
+msgstr "Страница не найдена. Попробуйте воспользоваться поиском."
+
+#: ../buddypress.php:10
+msgid "Member"
+msgstr "Участник"
+
+#: ../buddypress.php:14
+msgid "Group"
+msgstr "Группа"
+
+#: ../buddypress.php:18 ../buddypress.php:34 ../library/core.php:2395
+#: ../library/core.php:2397
+msgid "Groups"
+msgstr "Группы"
+
+#: ../buddypress.php:22
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../buddypress.php:26
+msgid "Forums"
+msgstr "Форумы"
+
+#: ../buddypress.php:30 ../buddypress.php:42
+msgid "Activity"
+msgstr "Активность"
+
+#: ../buddypress.php:34 ../buddypress.php:38
+msgid "Create a Group"
+msgstr "Создать группу"
+
+#: ../comments.php:15
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Эта статья защищена паролем. Введите пароль для просмотра."
+
+#: ../comments.php:27
+msgid "No Responses"
+msgstr "Нет ответа"
+
+#: ../comments.php:27
+msgid "One Response"
+msgstr "Один ответ"
+
+#: ../comments.php:27
+msgid "% Response"
+msgid_plural "% Responses"
+msgstr[0] "% ответ"
+msgstr[1] "% ответа"
+msgstr[2] "% ответов"
+
+#: ../comments.php:53
+msgid "Leave a Reply"
+msgstr "Добавить комментарий"
+
+#: ../comments.php:54
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Оставить комментарий %s"
+
+#: ../comments.php:55
+msgid "Cancel Reply"
+msgstr "Отменить комментарий"
+
+#: ../comments.php:56
+msgid "Post Comment"
+msgstr "Опубликовать комментарий"
+
+#: ../comments.php:58
+msgid "Your email address will not be published."
+msgstr "Адрес вашего почтового ящика не будет виден остальным."
+
+#: ../comments.php:59
+msgid "Comment"
+msgstr "Комментировать"
+
+#: ../comments.php:65
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Вы должны <a href=\"%s\">войти</a> для написания комментария."
+
+#: ../comments.php:71
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Вы зашли как <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Выйти?"
+"\">Выйти?</a>"
+
+#: ../comments.php:81
+msgid "Name"
+msgstr "Имя"
+
+#: ../comments.php:87 ../library/core.php:4038 ../library/core.php:4092
+msgid "Email"
+msgstr "Email"
+
+#: ../comments.php:94 ../library/core.php:4039 ../library/core.php:4093
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: ../functions.php:359
+msgid ""
+"15Zine no longer requires Cubell Themes Functionality plugin, please delete "
+"it and instead install the new \"15Zine Functionality\" plugin, which can be "
+"done in Appearance -> Install Plugins."
+msgstr ""
+"15Zine больше не требуется Cubell плагин Темы функциональности, пожалуйста, "
+"не удаляйте его, а вместо этого установить новую &quot;15Zine "
+"функциональность&quot; плагин, который может быть нанесен в Внешний вид -"
+"&gt; Установить плагины."
+
+#: ../library/core.php:130
+msgid "Log in / Join"
+msgstr "Вход / Регистрация"
+
+#: ../library/core.php:137
+msgid "Search"
+msgstr "Поиск"
+
+#: ../library/core.php:388
+msgid "Trending"
+msgstr "Тенденции"
+
+#: ../library/core.php:395
+msgid "Now"
+msgstr "Сейчас"
+
+#: ../library/core.php:395
+msgid "Week"
+msgstr "Неделя"
+
+#: ../library/core.php:395
+msgid "Month"
+msgstr "Месяц"
+
+#: ../library/core.php:477 ../library/core.php:546
+msgid "Not enough data yet, please check again later."
+msgstr "Недостаточно данных, пожалуйста, проверьте еще раз позже."
+
+#: ../library/core.php:482 ../library/core.php:552
+msgid ""
+"You need to install Jetpack plugin and enable the \"Stats\" module to be "
+"able to use this."
+msgstr ""
+"Вам необходимо установить плагин \"Jetpack\" и включить статистику для "
+"работы данного меню."
+
+#: ../library/core.php:580
+#, php-format
+msgid "Found %d result for:"
+msgid_plural "Found %d results for:"
+msgstr[0] "Найдена %d статья:"
+msgstr[1] "Найдено %d статьи:"
+msgstr[2] "Найдено %d статей:"
+
+#: ../library/core.php:603
+msgid "See all results"
+msgstr "Посмотреть весь результат поиска"
+
+#: ../library/core.php:606
+msgid "No results found for:"
+msgstr "Извините, но ничего не найдено для:"
+
+#: ../library/core.php:1249 ../library/core.php:1349 ../library/core.php:2372
+#: ../library/core.php:2376 ../library/core.php:2377 ../library/core.php:2445
+#: ../library/core.php:2449 ../library/core.php:2451 ../library/core.php:2457
+#: ../library/core.php:2463 ../library/core.php:2469
+#, php-format
+msgid "View all posts in %s"
+msgstr "Посмотреть все статьи в %s"
+
+# In ru this can have different forms
+# 0,5 - комментариев
+# 2,3 - комментария
+# 1,21 - комментарий
+#: ../library/core.php:1258
+msgid "0 Comments"
+msgstr "0 Комментариев"
+
+#: ../library/core.php:1491 ../library/core.php:1494
+msgid "views"
+msgid_plural "views"
+msgstr[0] "просмотров"
+msgstr[1] "просмотров"
+msgstr[2] "просмотров"
+
+#: ../library/core.php:1557
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (Недействительный)"
+
+#: ../library/core.php:1561
+#, php-format
+msgid "%s (Pending)"
+msgstr "%s (Проверка)"
+
+#: ../library/core.php:1606
+msgid "Edit Menu Item"
+msgstr "Редактировать элементы меню"
+
+#: ../library/core.php:1615
+msgid "URL"
+msgstr "Ссылка"
+
+#: ../library/core.php:1622
+msgid "Navigation Label"
+msgstr "Навигационная метка"
+
+#: ../library/core.php:1628
+msgid "Title Attribute"
+msgstr "Свойства заголовка"
+
+#: ../library/core.php:1635
+msgid "Open link in a new window/tab"
+msgstr "Откройте ссылку в новом окне"
+
+#: ../library/core.php:1640
+msgid "CSS Classes (optional)"
+msgstr "CSS Классы (Опционально)"
+
+#: ../library/core.php:1646
+msgid "Link Relationship (XFN)"
+msgstr "Ссылки Партнеров"
+
+#: ../library/core.php:1662
+msgid "Description"
+msgstr "Описание"
+
+#: ../library/core.php:1664
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it. "
+msgstr ""
+"Описание будет отображаться в меню, если текущая тема поддерживает его."
+
+#: ../library/core.php:1670
+msgid "Move"
+msgstr "Передвинуть"
+
+#: ../library/core.php:1671
+msgid "Up one"
+msgstr "Выше"
+
+#: ../library/core.php:1672
+msgid "Down one"
+msgstr "Ниже"
+
+#: ../library/core.php:1675
+msgid "To the top"
+msgstr "В самый верх"
+
+#: ../library/core.php:1682
+#, php-format
+msgid "Original: %s"
+msgstr "Исходник: %s"
+
+#: ../library/core.php:1695
+msgid "Remove"
+msgstr "Убрать"
+
+#: ../library/core.php:1696
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../library/core.php:1887
+msgid "See all"
+msgstr "Посмотреть все"
+
+#: ../library/core.php:2195
+msgid "No more articles"
+msgstr "Нет больше статей"
+
+#: ../library/core.php:2196
+msgid "Load More"
+msgstr "Загрузить еще"
+
+#: ../library/core.php:2363
+msgid "Home"
+msgstr "Главная"
+
+#: ../library/core.php:2413 ../library/core.php:2417
+msgid "Members"
+msgstr "Участники"
+
+#: ../library/core.php:2425
+msgid "Messages"
+msgstr "Сообщения"
+
+#: ../library/core.php:2430
+msgid "Register"
+msgstr "Регистрация"
+
+#: ../library/core.php:2545
+msgid "Share On"
+msgstr "Поделиться"
+
+#: ../library/core.php:2671
+msgid "Next Article"
+msgstr "Следующая статья"
+
+#: ../library/core.php:2676
+msgid "No Newer Articles"
+msgstr "Нет более новой статьи"
+
+#: ../library/core.php:2686
+msgid "Previous Article"
+msgstr "Предыдущая статья"
+
+#: ../library/core.php:2691
+msgid "No Older Articles"
+msgstr "Нет более старой статьи"
+
+#: ../library/core.php:2760
+msgid "Related Posts"
+msgstr "Похожие статьи"
+
+#: ../library/core.php:2812
+msgid "(Edit)"
+msgstr "(Редактировать)"
+
+#: ../library/core.php:2815
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: ../library/core.php:3834
+msgid "Overall Score"
+msgstr "Общее количество"
+
+#: ../library/core.php:3927 ../library/core.php:3937
+msgid "You have already rated"
+msgstr "Вы уже проголосовали"
+
+#: ../library/core.php:3931 ../library/core.php:4871
+msgid "Vote"
+msgstr "Голосовать"
+
+#: ../library/core.php:3933 ../library/core.php:4873
+msgid "Votes"
+msgstr "Голоса"
+
+#: ../library/core.php:3936
+msgid "Leave rating"
+msgstr "Проголосовать"
+
+#: ../library/core.php:3938
+msgid "Reader Rating"
+msgstr "Рейтинг читателя"
+
+#: ../library/widgets/cb-google-follow-widget.php:87
+#: ../library/widgets/cb-recent-posts-slider-widget.php:117
+#: ../library/widgets/cb-recent-posts-widget.php:116
+#: ../library/widgets/cb-reviews-widget.php:182
+#: ../library/widgets/cb-single-image-widget.php:82
+#: ../library/widgets/cb-widget-social-media.php:98
+msgid "Title:"
+msgstr "Название:"
+
+#: ../library/widgets/cb-popular-posts-widget.php:116
+msgid "Comments"
+msgstr "Комментарии"
+
+# 0,5 - просмотров
+# 2,3 - просмотра
+# 1,21 - просмотр
+#: ../library/widgets/cb-popular-posts-widget.php:149
+msgid "Views"
+msgstr "Просмотров"
+
+#: ../library/widgets/cb-recent-posts-slider-widget.php:120
+#: ../library/widgets/cb-recent-posts-widget.php:119
+msgid "Number of posts to show:"
+msgstr "Количество статей для отображения"
+
+#: ../library/widgets/cb-reviews-widget.php:197
+msgid "Number of reviews to show:"
+msgstr "Количество отзывов отображения"
+
+#: ../page.php:53
+msgid "Tags:"
+msgstr "Теги:"
+
+#: ../search.php:10
+msgid "Search Results for"
+msgstr "Поисковый результат для:"
+
+#: ../search.php:27
+msgid "Sorry, nothing found."
+msgstr "Извините, ничего не найдено."
+
+#: ../search.php:28
+msgid "Please try searching again, but with different keywords."
+msgstr "Попробуйте использовать другие ключевые слова для поиска."
+
+#: ../searchform.php:3
+msgid "Search.."
+msgstr "Поиск..."
+
+#~ msgid "Search for:"
+#~ msgstr "Поиск:"
+
+#~ msgid ""
+#~ "15Zine requires Cubell Themes Functionality 4.0, please delete your "
+#~ "existing installation of Cubell Themes Functionality plugin and install "
+#~ "the latest version in Appearance -> Install Plugins."
+#~ msgstr ""
+#~ "Теме \"15Zine\" необходима \"Cubell Themes Functionality 4.0\", "
+#~ "пожалуйста, удалите ваш установленный плагин \"Cubell Themes Functionality"
+#~ "\" и установите его более новую версию через \"Консоль -> Плагины -> "
+#~ "Добавить новый\"."
+
+#~ msgid "Read more"
+#~ msgstr "Далее"
