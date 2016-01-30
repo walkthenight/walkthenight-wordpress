@@ -64,9 +64,9 @@ define( 'DISALLOW_FILE_MODS', FALSE );
 
 define( 'DISABLE_WP_CRON', false );
 
-define( 'WPE_FORCE_SSL_LOGIN', false );
+define( 'WPE_FORCE_SSL_LOGIN', true );
 
-define( 'FORCE_SSL_LOGIN', false );
+define( 'FORCE_SSL_LOGIN', true );
 
 /*SSLSTART*/ if ( isset($_SERVER['HTTP_X_WPE_SSL']) && $_SERVER['HTTP_X_WPE_SSL'] ) $_SERVER['HTTPS'] = 'on'; /*SSLEND*/
 
@@ -98,9 +98,9 @@ $wpe_ec_servers=array ( );
 
 $wpe_largefs=array ( );
 
-$wpe_netdna_domains=array ( 0 =>  array ( 'match' => 'walkthenight.wpengine.com', 'zone' => '2cxnuy2ha4se2jwkq015ofa7', 'enabled' => true, ), 1 =>  array ( 'match' => 'walkthenight.com', 'zone' => '48199o446u0f3ovcw53xt0fw', 'enabled' => true, ), );
+$wpe_netdna_domains=array ( 0 =>  array ( 'match' => 'walkthenight.wpengine.com', 'secure' => true, 'dns_check' => '0', 'zone' => '2cxnuy2ha4se2jwkq015ofa7', ), );
 
-$wpe_netdna_domains_secure=array ( );
+$wpe_netdna_domains_secure=array ( 0 =>  array ( 'match' => 'walkthenight.wpengine.com', 'secure' => true, 'dns_check' => '0', 'zone' => '2cxnuy2ha4se2jwkq015ofa7', ), );
 
 $wpe_netdna_push_domains=array ( );
 

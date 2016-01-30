@@ -28,7 +28,7 @@ var WTN = WTN || {
 
 	eventData: {},
 	eventId: '',
-	eventsTimeframe: '?timeframe=future',	// which events get requested from Facebook API call :: Value = future|past|all[default]
+	eventsTimeframe: '?timeframe=future',	// determines which events get requested from Facebook API call :: Value = future|past|all[default]
 	seriesAssociatedWithEvent: [],
 
 	mapZoomLevel: 14,
@@ -55,6 +55,9 @@ var WTN = WTN || {
 	doCallbacksIfData: function(data, callbacks) {
 		if (data && callbacks) {
 			callbacks.call();
+		}
+		else {
+			WTN.hideLoaderIcon('.wtn-social');
 		}
 	},
 

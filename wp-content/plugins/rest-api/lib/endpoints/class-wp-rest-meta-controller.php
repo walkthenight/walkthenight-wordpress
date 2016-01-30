@@ -357,9 +357,9 @@ abstract class WP_REST_Meta_Controller extends WP_REST_Controller {
 	 * @return boolean Whether the data is valid or not
 	 */
 	protected function is_valid_meta_data( $data ) {
-		if ( is_array( $data ) || is_object( $data ) || is_serialized( $data ) ) {
-			return false;
-		}
+		//if ( is_array( $data ) || is_object( $data ) || is_serialized( $data ) ) {
+		//	return false;
+		//}
 
 		return true;
 	}
@@ -384,9 +384,11 @@ abstract class WP_REST_Meta_Controller extends WP_REST_Controller {
 			return new WP_Error( 'rest_meta_invalid_key', __( 'Invalid meta key.' ), array( 'status' => 400 ) );
 		}
 
+		/* We should be able to update protected meta if we want to 
+		 
 		if ( is_protected_meta( $request['key'] ) ) {
 			return new WP_Error( 'rest_meta_protected', sprintf( __( '%s is marked as a protected field.' ), $request['key'] ), array( 'status' => 403 ) );
-		}
+		} */
 
 		$meta_key = wp_slash( $request['key'] );
 		$value    = wp_slash( $request['value'] );

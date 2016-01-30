@@ -311,6 +311,64 @@ p.wp-caption-text {
 
 
 
+.wtn-job {
+    margin-bottom: 100px;
+}
+
+
+
+
+/* Main site Home page */
+body.page-id-24 #cb-content.wrap {
+    width: auto;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background-color: transparent;
+}
+body.page-id-24 .cb-main {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+body.page-id-24 .cb-main .cb-entry-content {
+    margin-bottom: 0 !important;
+}
+body.page-id-24 .row {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+body.page-id-24 .cb-main .wpb_row {
+    margin-bottom: 0 !important;
+    margin-left: 0;
+    margin-right: 0;
+}
+body.page-id-24 img.logo {
+    width: 13em;
+}
+body.page-id-24 .wpb_column {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+body.page-id-24.cb-body-light h3 {
+    color: #fff !important;
+    font-size: 2em !important;
+}
+body.page-id-24 p {
+    font-size: 28px !important;
+}
+body.page-id-24 p a {
+    color: #1585cf;
+}
+body.page-id-24 .mc-field-group input.email {
+    width: 380px !important;
+}
+
+
 
 /*  tablet & desktop    */
 @media only screen and (min-width: 768px) {
@@ -336,17 +394,65 @@ p.wp-caption-text {
         width: 100%;
         margin-top: 20px;
     }
+
+    .iphone-mock-2-div {
+        margin-bottom: 20px;
+    }
+
+    .iphone-mock-1-div {
+        margin-top: 20px;
+    }
 }
 
 
 
 /*  mobile    */
 @media only screen and (max-width: 767px) {
+    .cb-entry-content {
+        padding: 0 !important;
+    }
+
     .cb-fis h1 {
         font-size: 30px !important;
     }
 
+    .vc_grid.vc_row.vc_grid-gutter-30px .vc_pageable-slide-wrapper {
+        margin-right: 0;
+    }
+    .vc_grid.vc_row.vc_grid-gutter-30px .vc_grid-item {
+        padding-right: 0;
+    }
+    .vc_col-xs-1, .vc_col-sm-1, .vc_col-md-1, .vc_col-lg-1, .vc_col-xs-2, .vc_col-sm-2, .vc_col-md-2, .vc_col-lg-2, .vc_col-xs-3, .vc_col-sm-3, .vc_col-md-3, .vc_col-lg-3, .vc_col-xs-4, .vc_col-sm-4, .vc_col-md-4, .vc_col-lg-4, .vc_col-xs-5, .vc_col-sm-5, .vc_col-md-5, .vc_col-lg-5, .vc_col-xs-6, .vc_col-sm-6, .vc_col-md-6, .vc_col-lg-6, .vc_col-xs-7, .vc_col-sm-7, .vc_col-md-7, .vc_col-lg-7, .vc_col-xs-8, .vc_col-sm-8, .vc_col-md-8, .vc_col-lg-8, .vc_col-xs-9, .vc_col-sm-9, .vc_col-md-9, .vc_col-lg-9, .vc_col-xs-10, .vc_col-sm-10, .vc_col-md-10, .vc_col-lg-10, .vc_col-xs-11, .vc_col-sm-11, .vc_col-md-11, .vc_col-lg-11, .vc_col-xs-12, .vc_col-sm-12, .vc_col-md-12, .vc_col-lg-12 {
+        padding-right: 0;
+    }
+    .vc_row {
+        margin-right: 0;
+    }
+
+    .wpb_content_element.wpb_text_column h2,
+    .wpb_content_element.wpb_text_column p {
+        padding-left: 10px;
+    }
+
+
     .wpb_text_column .wtn-venue-info-hours {
         margin-bottom: 20px;
+    }
+
+    body.page-id-24.cb-body-light h3 {
+        text-align: center;
+        font-size: 2em !important;
+    }
+
+    .iphone-mock-2-div {
+        margin-bottom: 20px;
+    }
+
+    .iphone-mock-1-div {
+        margin-top: 20px;
+    }
+
+    body.page-id-24 .mc-field-group input.email {
+        width: 100% !important;
     }
 }
