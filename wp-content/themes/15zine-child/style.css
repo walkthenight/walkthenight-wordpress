@@ -41,6 +41,21 @@ body.page .cb-tags,,
     display: none;
 }
 
+body,
+#respond,
+.cb-font-body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.cb-font-header,
+#bbp-user-navigation,
+.cb-byline {
+    font-family: "adelle", sans-serif !important;
+}
+
 .cb-main a {
     background-image: none !important;
 }
