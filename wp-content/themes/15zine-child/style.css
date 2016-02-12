@@ -332,6 +332,14 @@ p.wp-caption-text {
 
 
 
+.wtn-policy p,
+.wtn-policy ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
 
 /* Main site Home page */
 body.page-id-24 #cb-content.wrap {
