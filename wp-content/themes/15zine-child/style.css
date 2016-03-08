@@ -30,6 +30,10 @@
     width: 100%;
 }
 
+html {
+    background-image: none !important;
+}
+
 body {
     font-size: 18px !important;
     text-rendering: optimizeLegibility;
@@ -187,10 +191,10 @@ p.wp-caption-text {
         line-height: 1.5em;
         font-size: 15px;
     }
-    	.wtn-venue-info li {
-    		margin-bottom: 15px;
+        .wtn-venue-info li {
+            margin-bottom: 15px;
             text-align: right;
-    	}
+        }
             .wtn-venue-info-name {
                 font-size: 16px;
                 font-weight: bold;
@@ -341,7 +345,7 @@ p.wp-caption-text {
 
 
 
-/* Main site Home page */
+/* Main site Home page OLD 
 body.page-id-24 #cb-content.wrap {
     width: auto;
     margin-left: 0 !important;
@@ -390,7 +394,128 @@ body.page-id-24 p a {
 body.page-id-24 .mc-field-group input.email {
     width: 380px !important;
 }
+*/
 
+/* Main site Home page NEW */
+body.page-id-24 header {
+    display: none;
+}
+body.page-id-24 #cb-content {
+    width: auto;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    background-color: transparent;
+}
+body.page-id-24 #main {
+    max-width: none !important;
+    margin: 0;
+    padding: 0;
+}
+body.page-id-24 #post-24 {
+    margin: 0 auto;
+}
+body.page-id-24 .cb-entry-content {
+    margin-bottom: 0;
+}
+body.page-id-24 .vc_row {
+    margin: 0;
+}
+body.page-id-24 .vc_column_container {
+    padding: 0;
+}
+body.page-id-24 .wtn-home h3 {
+    height: 72px;
+    margin: 0;
+    background-color: #ec187c;
+    color: #fff;
+    font-size: 30px !important;
+    text-align: center;
+    line-height: 72px;
+}
+body.page-id-24 .wtn-home-main {
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+    body.page-id-24 .wtn-home-main .wtn-home-tag-logo {
+        display: block;
+        width: 43.4%;
+        margin: 6.15% auto 0;
+    }
+    body.page-id-24 .wtn-home-main .wtn-home-phone1 {
+        width: 79.7%;
+        margin: 16.05% auto 0;
+        overflow: hidden;
+    }
+        body.page-id-24 .wtn-home-main .wtn-home-phone1 .mockup {
+            float: left;
+            width: 39.15%;
+        }
+        body.page-id-24 .wtn-home-main .wtn-home-phone1 .content {
+            float: left;
+            width: 52.63%;
+            margin-left: 6.55%;
+        }
+    body.page-id-24 .wtn-home-main .wtn-home-phone2 {
+        clear: both;
+        width: 78.3%;
+        margin: 13.25% auto 0;
+        overflow: hidden;
+    }
+        body.page-id-24 .wtn-home-main .wtn-home-phone2 .content {
+            float: left;
+            width: 50.64%;
+        }
+        body.page-id-24 .wtn-home-main .wtn-home-phone2 .mockup {
+            float: left;
+            width: 39.21%;
+            margin-left: 7.95%;
+        }
+    body.page-id-24 .wtn-home-main .wtn-home-signup #mc_embed_signup {
+        margin: 8.05% 2.4% 0;
+        padding-bottom: 4.2%;
+        background-color: rgba(236, 24, 124, 0.28);
+    }
+        body.page-id-24 .wtn-home-main .wtn-home-signup #mc_embed_signup form {
+            padding: 0;
+        }
+        body.page-id-24 .wtn-home-main .wtn-home-signup #mc_embed_signup .wtn-home-signup-hdr {
+            width: 83.95%;
+            margin: 4.49% 0 0 2.35%;
+        }
+        body.page-id-24 .wtn-home-main .wtn-home-signup #mc_embed_signup .mc-field-group {
+            margin-top: 2.57%;
+            padding: 0;
+        }
+            body.page-id-24 .wtn-home-main .wtn-home-signup #mc_embed_signup .mc-field-group .email {
+                display: inline-block;
+                width: 62.07%;
+                margin: 3px 0 0 2.35%;
+                border: 3px solid #fff;
+                background-color: transparent;
+                font-size: 32px;
+            }
+            body.page-id-24 .wtn-home-main .wtn-home-signup #mc_embed_signup #mc-embedded-subscribe {
+                display: inline-block;
+                width: 29.43%;
+                margin-left: 3.32%;
+                border-radius: 10px;
+                background-color: #fff;
+                color: #ec187c;
+                font-size: 32px;
+                font-weight: 400;
+                line-height: 53px;
+            }
+        body.page-id-24 .wtn-home-main .wtn-home-signup #mc_embed_signup .wtn-home-venues-link {
+            display: block;
+            width: 85.13%;
+            margin: 3.5% 0 0 2.35%;
+        }
+    body.page-id-24 .wtn-home-main .wtn-home-copyright {
+        margin: 3.25% 0 4% 2.5%;
+        color: #ec187c;
+        font-size: 20px;
+    }
 
 
 /*  tablet & desktop    */
@@ -418,13 +543,13 @@ body.page-id-24 .mc-field-group input.email {
         margin-top: 20px;
     }
 
-    .iphone-mock-2-div {
+    /*.iphone-mock-2-div {
         margin-bottom: 20px;
     }
 
     .iphone-mock-1-div {
         margin-top: 20px;
-    }
+    }*/
 }
 
 
@@ -462,6 +587,7 @@ body.page-id-24 .mc-field-group input.email {
         margin-bottom: 20px;
     }
 
+    /*
     body.page-id-24.cb-body-light h3 {
         text-align: center;
         font-size: 2em !important;
@@ -477,5 +603,52 @@ body.page-id-24 .mc-field-group input.email {
 
     body.page-id-24 .mc-field-group input.email {
         width: 100% !important;
+    }
+    */
+
+    body.page-id-24 .wtn-home h3 {
+        padding: 3%;
+        font-size: 1em !important;
+        line-height: 1.5em;
+    }
+    body.page-id-24 .wtn-home-main .wtn-home-phone1 {
+        width: 96%;
+        margin: 16.05% auto 0;
+        overflow: hidden;
+    }
+        body.page-id-24 .wtn-home-main .wtn-home-phone1 .mockup {
+            float: left;
+            width: 39.15%;
+        }
+        body.page-id-24 .wtn-home-main .wtn-home-phone1 .content {
+            float: left;
+            width: 58%;
+            margin-left: 2%;
+        }
+    body.page-id-24 .wtn-home-main .wtn-home-phone2 {
+        width: 96%;
+        margin: 13.25% auto 0;
+        overflow: hidden;
+    }
+        body.page-id-24 .wtn-home-main .wtn-home-phone2 .content {
+            width: 58%;
+        }
+        body.page-id-24 .wtn-home-main .wtn-home-phone2 .mockup {
+            width: 39.21%;
+            margin-left: 2%;
+        }
+    body.page-id-24 .wtn-home-main .wtn-home-signup #mc_embed_signup .mc-field-group .email {
+        display: block;
+        width: 100%;
+        font-size: 1em;
+    }
+    body.page-id-24 .wtn-home-main .wtn-home-signup #mc_embed_signup #mc-embedded-subscribe {
+        display: block;
+        width: 80%;
+        margin: 5% auto;
+        font-size: 1.5em;
+    }
+    body.page-id-24 .wtn-home-main .wtn-home-copyright {
+        font-size: 0.75em;
     }
 }
